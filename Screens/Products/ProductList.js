@@ -1,6 +1,5 @@
 import React from 'react';
 import { TouchableOpacity, View, Dimensions } from 'react-native';
-import ProductCard from './ProductCard';
 
 import ProductCard from './ProductCard'
 

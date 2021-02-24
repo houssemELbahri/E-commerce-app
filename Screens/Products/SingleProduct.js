@@ -40,7 +40,7 @@ const SingleProduct = (props) => {
 
 const styles = StyleSheet.create({
     container: {
-        position: relative,
+        position: 'relative',
         height: '100%',
     },
     imageContainer: {
