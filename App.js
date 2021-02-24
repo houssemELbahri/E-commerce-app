@@ -5,8 +5,8 @@ import { NavigationContainer } from "@react-navigation/native";
 //import Toast from "react-native-toast-message";
 
 // Redux
-//import { Provider } from "react-redux";
-//import store from "./Redux/store";
+import { Provider } from "react-redux";
+import store from "./Redux/store";
 
 // Context API
 //import Auth from "./Context/store/Auth";
@@ -22,13 +22,13 @@ import Header from "./Shared/Header";
 export default function App() {
   return (
     //<Auth>
-      //<Provider store={store}>
+      <Provider store={store}>
         <NavigationContainer>
           <Header />
           <Main />
           {/*<Toast ref={(ref) => Toast.setRef(ref)} />*/}
         </NavigationContainer>
-      //</Provider>
+      </Provider>
     //</Auth>
   );
 }
