@@ -59,8 +59,8 @@ const Cart = (props) => {
               <Button title="Clear" onPress={() => props.clearCart()} />
             </Right>
             <Right>
-              <Button title="Checkout" />
-              {/*onPress={() => props.navigation.navigate('Checkout')}/>*/}
+              <Button title="Checkout" 
+                  onPress={() => props.navigation.navigate('Checkout')}/>
             </Right>
           </View>
         </Container>
